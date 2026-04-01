@@ -5,4 +5,3 @@ if rows < 1:
 else:
     for i in range(1, rows+1,2):
      print(" "*int((rows-i/2)) + "*" * i + " "*int((rows-i/2)))
-     
